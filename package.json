@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
-    "debug": "open 'rndebugger://set-debugger-loc?host=localhost&port=19001'"
+    "debug":"open 'rndebugger://set-debugger-loc?host=localhost&port=19001'",
+    "postinstall": "rndebugger-open"
   },
   "dependencies": {
     "expo": "^32.0.0",
